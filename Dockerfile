@@ -1,6 +1,6 @@
 FROM openjdk:8-jdk
 
-MAINTAINER Paul Mandeltort
+MAINTAINER HuyQuach
 RUN apt-get update && apt-get upgrade -y && apt-get clean
 
 ## Clone/Checkout OFbiz from github
